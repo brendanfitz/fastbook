@@ -7,8 +7,8 @@ for orientation in ExifTags.TAGS.keys():
 
 family_members = ['kara', 'brendan', 'ellie']
 for family_member in family_members:
-    path = Path.home() / '.data' / 'images' / 'family' / family_member
-    # path = Path.home() / '.data' / 'images' / 'family_test'
+    # path = Path.home() / '.data' / 'images' / 'family' / family_member
+    path = Path.home() / '.data' / 'images' / 'family' / 'test'
 
     for filename in os.listdir(path):
         if filename.lower().endswith(".heic"):
